@@ -43,7 +43,7 @@ AUTHENTICATION
   - Confirm Password
 
 
-Architecture
+ARCHITECTURE
 - Student
   - Name
   - Reg No
@@ -58,4 +58,4 @@ Architecture
   - Emp ID
   - Email ID
   - Block Associated
-  - Password
+  - Passwordx
