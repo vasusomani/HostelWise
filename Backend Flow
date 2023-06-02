@@ -1,0 +1,61 @@
+FEATURES
+-  Request for cleaning
+    -  Cleaning Completed confirmation
+    -  Feedback from student after cleaning
+    -  Tip for employee
+    -  Complain related to Room or Bathrooms
+    -  Lost and Found
+-  Complaints
+-  Food Request
+-  Leave Application
+-  Maintenance Request
+-  Online Noticeboard
+-  Web socket connection
+
+
+AUTHENTICATION
+  - Login
+    -  Single Login for both Students and Employees (Managed under backend)
+    -  Student Login : Login with VIT ID and Password
+    -  Employee Login : Login with Email ID or Mobile No and OTP or Password
+    -  Moderator Login : Login with Email ID and Password
+
+  - SignUp
+    -  Register as an employee
+      - Register with email id
+      - Register with mobile no
+    -  Register as a student
+
+  Register as a STUDENT
+  - Name and Gender (Dropdown)
+  - Reg No
+  - Block Name (Deopdown) and Room No
+  - VIT email id
+  - Password
+  - Confirm Password
+
+  Register as an Employee
+  - Name
+  - Emp ID
+  - Block Assosciated
+  - Email id
+  - Password
+  - Confirm Password
+
+
+Architecture
+- Student
+  - Name
+  - Reg No
+  - Gender
+  - Block Name
+  - Room No
+  - VIT Email
+  - Password
+  
+- Employee
+  - Name
+  - Emp ID
+  - Email ID
+  - Block Associated
+  - Password
