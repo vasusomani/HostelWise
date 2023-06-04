@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Student, Cleaner, SuperUser, RoomCleanData, ComplainData,MessFeedbackData
+from .models import MaintainanceRequestData, Student, Cleaner, SuperUser, RoomCleanData, ComplainData,MessFeedbackData
 
 
 class StudentSerializer(serializers.ModelSerializer):
@@ -52,7 +52,7 @@ class MaintainanceRequestSerializer(serializers.ModelSerializer):
     date_added = serializers.DateTimeField(read_only=True)
 
     class Meta:
-        model = ComplainData
+        model = MaintainanceRequestData
         fields = ('student','message', 'completed', 'date_added', 'date_completed')
 
 class MessFeedbackRequestSerializer(serializers.ModelSerializer):
