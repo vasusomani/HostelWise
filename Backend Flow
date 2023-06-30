@@ -2,23 +2,25 @@ FEATURES
 -  Request for cleaning
     -  Cleaning Completed confirmation
     -  Feedback from student after cleaning
-    -  Tip for employee
-    -  Complain related to Room or Bathrooms
-    -  Lost and Found
 -  Complaints
+    - Room
+    - Bathrooms
+    - Wifi
+    - AC
 -  Food Request
--  Leave Application
--  Maintenance Request
+-  Lost and Found
+    - Users Page : Listing out found things
+        - Contact Details (For now)
 -  Online Noticeboard
--  Web socket connection
 
 
 AUTHENTICATION
   - Login
     -  Single Login for both Students and Employees (Managed under backend)
-    -  Student Login : Login with VIT ID and Password
-    -  Employee Login : Login with Email ID or Mobile No and OTP or Password
-    -  Moderator Login : Login with Email ID and Password
+    -  Student Login : Login with VIT ID and Password , Google Auth (Later)
+    -  Cleaner Login : Login with EmpID-Password or Mobile No-OTP
+    -  Moderator Login (Website) : Login with Email ID and Password (Already Provided) : Different for each block
+
 
   - SignUp
     -  Register as an employee
