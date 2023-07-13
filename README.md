@@ -1,4 +1,4 @@
-Hi i am Mihir Joshi from team ENCODERS. I am a UI/UX developers. We made our design in figma for DEV-SOC'23 and the figma file is as follows,
-
+HostelWise is an application which digitalozes your routine hostel activities. From requesting for cleaning service to finding your lost items in Lost and Found section. This app can do everything.
+To know more about our application and its features check-out our "About.txt" file.
 
 Figmafile : https://www.figma.com/file/lohs5y8tbXOtMiA7d0rX3V/Untitled?type=design&node-id=0%3A1&t=CFjHz62mdoU7V0G4-1
