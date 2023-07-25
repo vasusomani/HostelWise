@@ -9,7 +9,7 @@ import 'RequestSent.dart';
 
 class CleaningRequestPage extends StatelessWidget {
   CleaningRequestPage(this.secKey);
-  String secKey;
+  final String secKey;
   @override
   Widget build(BuildContext context) {
     // Future<void> _submitRequest() async {

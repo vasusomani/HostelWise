@@ -3,8 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:hostel_wise/Util/HexToColor.dart';
 
 class MenuBar extends StatelessWidget {
-  const MenuBar({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,7 +13,7 @@ class MenuBar extends StatelessWidget {
               border: Border.fromBorderSide(BorderSide(
                   color: HexColor("#ACB1D6"),
                   width: 12,
-                  strokeAlign: StrokeAlign.outside)),
+                  strokeAlign: BorderSide.strokeAlignOutside)),
               borderRadius:
                   BorderRadius.only(bottomRight: Radius.circular(350))),
           child: SafeArea(

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hostel_wise">
    <application
-        android:label="hostel_wise"
+        android:label="Hostel Wise"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:hostel_wise/Pages/MenuBar.dart';
 import 'package:http/http.dart' as http;
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hostel_wise/Util/HexToColor.dart';
@@ -54,7 +53,7 @@ class _HomePageState extends State<HomePage> {
           onTap: () => Navigator.push(
               context,
               MaterialPageRoute(
-                builder: (context) => MenuBar(),
+                builder: (context) => MenuBar(children: []),
               )),
           child: Container(
             margin: EdgeInsets.all(10),
